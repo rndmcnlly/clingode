@@ -1,0 +1,15 @@
+clingode.js: a node.js wrapper for clingo
+
+REQUIREMENTS:
+ - node v0.9+
+ - clingo
+
+RUNNING:
+  $ CLINGO_BINARY=my_clingo PORT=9229 node clingode.js
+or simply
+  $ ./clingo.js
+
+USAGE:
+  /solve -- post your problem here, streams results
+  /jobs  -- monitor active solvers
+
