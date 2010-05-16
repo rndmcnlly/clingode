@@ -1,15 +1,17 @@
 clingode.js: a node.js wrapper for clingo
 
 REQUIREMENTS:
- - node v0.9+
- - clingo
+ - node v0.9+ (http://nodejs.org/)
+ - clingo (http://potassco.sourceforge.net/)
 
 RUNNING:
   $ CLINGO_BINARY=my_clingo PORT=9229 node clingode.js
 or simply
-  $ ./clingo.js
+  $ ./clingode.js
 
 USAGE:
+
+You should now have an http service on port 9229.
   /solve -- post your problem here, streams results
   /jobs  -- monitor active solvers
 
