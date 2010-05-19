@@ -15,3 +15,13 @@ You should now have an http service on port 9229.
   /solve -- post your problem here, streams results
   /jobs  -- monitor active solvers
 
+PLANNED FEATURES:
+- human friend UI
+- local manual pdf
+- streaming of models (as opposed to random lines)
+- JSON/P
+- async job spawning:
+  - post problem to somewhere
+  - get id of job
+  - listen on another page for status
+  - retrieve solution several times until cleaned up
